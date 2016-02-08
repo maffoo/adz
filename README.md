@@ -1,4 +1,4 @@
-# Ad fillers for use with Google COntributor
+# Ad fillers for use with Google Contributor
 
 [Google Contributor](https://www.google.com/contributor/) lets you pay some
 money to sites instead of seeing conventional web ads.
