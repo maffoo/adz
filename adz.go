@@ -46,7 +46,6 @@ var rules = [30, 90, 110];
 var rule = rules[Math.floor(Math.random()*rules.length)];
 
 var int = setInterval(function() {
-  console.log('row:', y);
   for (var x = 0; x < w; x++) {
     if (row[x]) {
       ctx.fillRect(x, y, 1, 1);
@@ -61,7 +60,6 @@ var int = setInterval(function() {
   }
   y += 1;
   if (y >= h) {
-    console.log('done');
     clearInterval(int);
   }
 }, 10);
